@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Do not ignore this file and the final model checkpoint
+!.gitignore
+!final.ckpt
+!final.log
+!annotations
+!annotations/**
+!final/**
+annotations/nikitin

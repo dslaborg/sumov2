@@ -1,0 +1,12 @@
+# Python
+sandbox.ipynb
+
+## Byte-compiled / optimized / DLL files
+__pycache__/
+
+# IntelliJ
+/**/.idea/
+/**/out/
+/**/*.iml
+/**/*.ipr
+/**/*.iws

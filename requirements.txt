@@ -1,0 +1,13 @@
+matplotlib
+numpy
+lightning
+scipy
+scikit-learn
+pyyaml
+mne
+tqdm
+tensorboard
+pandas
+jupyter
+seaborn
+tabulate
