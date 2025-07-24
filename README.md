@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ```shell
 # enter the project root
-git clone https://github.com/dslaborg/sumo.git
+git clone https://github.com/dslaborg/sumov2.git
 cd sumo
 
 conda create -n sumo python=3.10
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ```shell
 # enter the project root
-git clone https://github.com/dslaborg/sumo.git
+git clone https://github.com/dslaborg/sumov2.git
 cd sumo
 
 # Create the virtual env with pip
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ```shell
 # enter the project root
-git clone https://github.com/dslaborg/sumo.git
+git clone https://github.com/dslaborg/sumov2.git
 cd sumo
 
 # Create the virtual env with pip
