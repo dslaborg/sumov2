@@ -273,7 +273,7 @@ class MODADataModule(pl.LightningDataModule):
     def val_dataloader(self):
         return self.subjects_to_data_loader(self.subjects_val)
 
-    def test_dataloader(self):
+    def test_dataloaders(self):
         assert self.subjects_test is not None
         assert len(self.subjects_test) > 0
 
@@ -283,7 +283,7 @@ class MODADataModule(pl.LightningDataModule):
                 for test_phase in self.subjects_test
             ]
         else:
-            return self.subjects_to_data_loader(self.subjects_test)
+            return [self.subjects_to_data_loader(self.subjects_test)]
 
 
 class MODADataModuleCV(MODADataModule):

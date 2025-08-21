@@ -22,7 +22,7 @@ def custom_evaluation(datamodule, model, plot=False, ax=None):
 
     if args.test:
         precisions, recalls, f1s = calculate_test_metrics(
-            model, datamodule.test_dataloader(), overlap_thresholds
+            model, datamodule.test_dataloaders(), overlap_thresholds
         )
 
         if plot:
