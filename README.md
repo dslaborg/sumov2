@@ -3,7 +3,7 @@
 Implementation of the *SUMOv2* model as described in:
 
 ```
-Grieger, N., Mehrkanoon, S., Ritter, P., and Bialonski, S., “From Sleep Staging to Spindle Detection: Evaluating End-to-End Automated Sleep Analysis”, arXiv:2505.05371, 2025.
+Grieger, N., Mehrkanoon, S., Ritter, P., and Bialonski, S., “From sleep staging to spindle detection: a case study on end-to-end automated sleep analysis," Sci Rep 16, 16014, 2026.
 ```
 
 ## Installation Guide
